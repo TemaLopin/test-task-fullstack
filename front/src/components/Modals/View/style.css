@@ -1,0 +1,29 @@
+.modal {
+  overflow: hidden;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+
+  left: 0px;
+  top: 0px;
+
+  background-color: #0005;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  height: 60%;
+  width: 60%;
+}
+
+.view-task-block {
+  border-bottom: 2px solid #0004;
+  word-break: break-all;
+  padding: 5px 0px;
+}
